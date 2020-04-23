@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IRobot</string>
+    <string name="tab_text_1">Notifications</string>
+    <string name="tab_text_2">Daily planning</string>
+    <string name="tab_text_3">Contacts</string>
+    <string name="intro">Hello to you X! I hope you are well! </string>
+    <string name="intro2"> I am a smart robot named Pepper doubled with an app and I will be your assistant! Here you can store, consult and manage your schedule, your tasks to do and access to a few numbers that could be useful to you!</string>
+    <string name="fragment">coucou fragment</string>
+    <string name="RETURN">RETURN</string>
+    <string name="button1">EDIT COLOUR</string>
+    <string name="button2">TIME SETTINGS</string>
+    <string name="button3">PREFERRED SETTINGS</string>
+    <string name="button4">ADD/DELETE HEADING</string>
+    <string name="titleSettings">SETTINGS</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        />
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:src="@drawable/calendar" />
+
+    <RelativeLayout
+    android:layout_width="350dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorDailyPlanning">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6H30 waking up"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="280dp"
+            android:background="@null"
+            android:src="@drawable/reveil5" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FF5722">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 8h15 Intercultural communication class"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="#F44336">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=" 11h Eating time"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:background="@null"
+            android:src="@drawable/eatingtime" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:background="#E91E63">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 14h Care center Appointment"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="with Doctor Amenniya\nDon't forget to take your health record."
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="290dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/healthcenter2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="#9C27B0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 17h Homework time"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:background="#3F51B5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 21h Bed time"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="280dp"
+            android:background="@null"
+            android:src="@drawable/bed6" />
+    </RelativeLayout>
+
+</RelativeLayout>
