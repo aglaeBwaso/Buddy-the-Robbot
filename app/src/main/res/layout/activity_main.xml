@@ -23,7 +23,7 @@
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
         <TextView
-            android:layout_width="250dp"
+            android:layout_width="260dp"
             android:layout_height="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"

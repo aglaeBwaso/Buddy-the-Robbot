@@ -31,7 +31,7 @@
 
     <RelativeLayout
     android:layout_width="350dp"
-    android:layout_height="30dp"
+    android:layout_height="80dp"
     android:layout_marginTop="100dp"
     android:layout_centerHorizontal="true"
     android:background="@color/colorDailyPlanning">
@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="6H30 waking up"
+        android:text="7H Wake up"
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:textSize="15sp"
@@ -58,10 +58,49 @@
 
     <RelativeLayout
         android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="180dp"
         android:layout_centerHorizontal="true"
         android:background="#FF5722">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7h15 Breakfast"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:background="#F44336">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7h45 Departure to school"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:background="#E91E63">
 
         <TextView
             android:layout_width="wrap_content"
@@ -73,119 +112,8 @@
             android:layout_centerVertical="true"
             android:textSize="15sp"
             />
-
-
     </RelativeLayout>
 
 
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true"
-        android:background="#F44336">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text=" 11h Eating time"
-            android:textColor="@color/colorPrimary"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="280dp"
-            android:background="@null"
-            android:src="@drawable/eatingtime" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="260dp"
-        android:layout_centerHorizontal="true"
-        android:background="#E91E63">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" 14h Care center Appointment"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:textSize="15sp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="with Doctor Amenniya\nDon't forget to take your health record."
-            android:textColor="@color/colorPrimary"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="30dp"
-            android:textSize="15sp"
-            />
-
-        <ImageView
-            android:layout_width="51dp"
-            android:layout_height="52dp"
-            android:layout_marginLeft="290dp"
-            android:layout_centerVertical="true"
-            android:background="@null"
-            android:src="@drawable/healthcenter2" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="350dp"
-        android:layout_centerHorizontal="true"
-        android:background="#9C27B0">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" 17h Homework time"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:textSize="15sp"
-            />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="410dp"
-        android:layout_centerHorizontal="true"
-        android:background="#3F51B5">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" 21h Bed time"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:textSize="15sp"
-            />
-
-        <ImageView
-            android:layout_width="69dp"
-            android:layout_height="43dp"
-            android:layout_marginLeft="280dp"
-            android:background="@null"
-            android:src="@drawable/bed6" />
-    </RelativeLayout>
 
 </RelativeLayout>
